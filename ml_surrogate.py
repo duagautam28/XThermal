@@ -64,6 +64,8 @@ comparison = pd.DataFrame({
 print("\nModel Comparison")
 print(comparison)
 
+# feature importance for random forest model
+
 imp=rf_model.feature_importances_
 
 feature_imp=pd.DataFrame({
